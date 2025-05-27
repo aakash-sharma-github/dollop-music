@@ -1,3 +1,131 @@
+# Music Streaming App
+
+A Spotify-like music streaming application built with React Native, allowing users to browse music, create playlists, and enjoy seamless playback across their devices.
+
+## Project Overview
+
+This application provides a modern music streaming experience with a sleek, dark-themed UI inspired by Spotify. It features user authentication, music browsing by categories, search functionality, library management, and a full-featured music player with background playback capabilities.
+
+## Features
+
+### Authentication
+- User login and signup
+- Password recovery flow
+- Persistent authentication state
+
+### Music Discovery
+- Home screen with featured playlists and recommendations
+- Browse categories and genres
+- Search functionality for tracks, artists, albums, and playlists
+
+### Library Management
+- View and manage saved playlists
+- Browse recently played content
+- Filter library content by type (playlists, artists, albums)
+
+### Playback
+- Full-featured audio player with play, pause, skip controls
+- Mini-player accessible from anywhere in the app
+- Background audio playback
+- Progress tracking and seeking
+- Queue management
+
+### UI/UX
+- Dark theme with Spotify-inspired color palette
+- Responsive and intuitive navigation
+- Smooth transitions and animations
+
+## Project Structure
+
+```
+/src
+  /assets            # Images, fonts, and other static assets
+  /components        # Reusable UI components
+    /player          # Player-related components
+  /navigation        # Navigation configuration
+  /redux             # Redux state management
+    /slices          # Redux slices for different features
+  /screens           # App screens
+    /auth            # Authentication screens
+    /main            # Main app screens
+  /services          # API and service integrations
+  /utils             # Utility functions and constants
+    theme.ts         # App theming and styling constants
+```
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v14 or newer)
+- npm or yarn
+- React Native development environment set up ([React Native Environment Setup](https://reactnative.dev/docs/environment-setup))
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/music-app.git
+   cd music-app
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Install pods for iOS (if developing for iOS):
+   ```
+   cd ios && pod install && cd ..
+   ```
+
+### Running the App
+
+#### For Android:
+```
+npx react-native run-android
+```
+
+#### For iOS:
+```
+npx react-native run-ios
+```
+
+## Technologies Used
+
+- **React Native**: Core framework for building the mobile application
+- **TypeScript**: For type-safe code
+- **Redux Toolkit**: State management
+- **React Navigation**: Navigation management
+- **React Native Track Player**: Audio playback functionality
+- **Firebase Authentication**: User authentication (planned for implementation)
+
+## Next Steps
+
+### Immediate Enhancements
+- Connect to a real music API (Spotify API, Deezer, etc.)
+- Implement real authentication with Firebase
+- Add offline mode with downloaded tracks
+- Enhance player with visualizations and lyrics
+
+### Future Features
+- Social features (sharing, following users)
+- Personalized recommendations using machine learning
+- Podcast support
+- User profile customization
+- Cross-device synchronization
+- Smart playlists based on listening habits
+- Equalization and audio settings
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
