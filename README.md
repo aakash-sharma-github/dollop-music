@@ -64,7 +64,7 @@ This application provides a modern music streaming experience with a sleek, dark
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/music-app.git
+   git clone https://github.com/aakash-sharma-github/dollop-music
    cd music-app
    ```
 
